@@ -19,7 +19,7 @@ class LSTM(OriginalLSTM):
         super().__init__(*args, **kwargs)
 
 #Load the pretrained model using customLSTM 'time_major' argument
-model = load_model("next_word_lstm.keras", custom_objects={'LSTM':LSTM})
+model = load_model("next_word_lstm.h5", custom_objects={'LSTM':LSTM})
 
 
 #loading the tokenizer
