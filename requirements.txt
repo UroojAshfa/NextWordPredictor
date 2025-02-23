@@ -4,5 +4,5 @@ numpy
 sickit-learn
 matplotlib
 streamlit
-scikeras
+sickeras
 tensorboard
